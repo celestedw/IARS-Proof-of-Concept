@@ -1,0 +1,22 @@
+
+Original Project: 
+# js-ts22-incident-accuracy-reporting-system 
+Proof of concept for incident-accuracy-reporting-system opensource project
+Company: IBM, Program: Jumpstart (orientation) Year: 2022
+
+Audio Analysis/Matching project
+
+How it works:
+
+1. Audio files are converted into spectrograms
+2. These spectrograms are used to identify local maximas
+3. These maximas are used to generate a hash for the audio file
+4. These hashes are compared to identify audio from the same event
+
+dependencies:
+- Numpy
+- Matplotlib
+- Noisereduce
+- Pil (for Image)
+- Hashlib
+- Scipy
